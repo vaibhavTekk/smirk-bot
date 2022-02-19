@@ -7,7 +7,7 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('ready',() => {
     console.log('ready');
-    client.user.setActivity('Running a test, hopefully.', { type: "PLAYING" });
+    client.user.setActivity('Listening for Smirk Requests', { type: "PLAYING" });
 });
 
 client.on('messageCreate' ,(msg) => {
