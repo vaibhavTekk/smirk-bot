@@ -11,7 +11,7 @@ client.on('ready',() => {
 });
 
 client.on('messageCreate' ,(msg) => {
-    console.log(msg);
+    //console.log(msg);
     if (msg.content === '!smirk'){
         msg.channel.send(`😏`);
     }
